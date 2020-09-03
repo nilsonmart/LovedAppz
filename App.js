@@ -26,7 +26,7 @@ import HomeScreen from './screens/HomeScreen'
   })
 
   const AuthStack = createStackNavigator({
-    Login: LoadingScreen,
+    Login: LoginScreen,
     Register: RegisterScreen
   })
 

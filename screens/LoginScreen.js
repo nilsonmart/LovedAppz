@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     greeting: {
         marginTop: 32,
         fontSize: 18,
-        fontWeight: "480",
+        fontWeight: "400",
         textAlign: "center"
     },
     errorMessage: {
@@ -36,5 +36,21 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         marginHorizontal: 38
+    },
+    form:{
+        marginBottom: 48,
+        marginHorizontal: 30
+    },
+    inputTitle:{
+        color: "#8A8F9E",
+        fontSize: 10,
+        textTransform:"uppercase"
+    },
+    input:{
+        borderBottomColor: "#8A8F9E",
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        height: 40,
+        fontSize: 15,
+        color: "#161F3D"
     }
 });
