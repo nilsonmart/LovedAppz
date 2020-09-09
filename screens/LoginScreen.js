@@ -4,11 +4,14 @@ import * as firebase from 'firebase'
 
 export default class LoginScreen extends React.Component {
 
+    // static navigationOptions = {
+    //     header: null
+    // };
     static navigationOptions = {
-        header: null
-    };
-
-    state = {
+        headerShown: false,
+      }
+   
+   state = {
         email: "",
         password: "",
         errorMessage: null
