@@ -7,9 +7,9 @@ export default class LoginScreen extends React.Component {
     // static navigationOptions = {
     //     header: null
     // };
-    // static navigationOptions = {
-    //     headerShown: false,
-    //   }
+    static navigationOptions = {
+        headerShown: false,
+      }
    
    state = {
         email: "",

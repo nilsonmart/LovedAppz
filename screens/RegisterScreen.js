@@ -4,9 +4,9 @@ import * as firebase from 'firebase'
 import {Ionicons} from '@expo/vector-icons'
 
 export default class RegisterScreen extends React.Component {
-    // static navigationOptions = {
-    //     header: null
-    // };
+    static navigationOptions = {
+        header: null
+    };
 
     state = {
         name: "",

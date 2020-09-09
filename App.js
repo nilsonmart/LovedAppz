@@ -34,21 +34,18 @@ const AppTabNavigator = createBottomTabNavigator(
     Home: {
       screen: HomeScreen,
       navigationOptions:{
-        headerShown: false,
         tabBarIcon:({tintColor}) => <Ionicons name="ios-home" size={24} color={tintColor}/>
       }
     },
     Message: {
       screen: MessageScreen,
       navigationOptions:{
-        headerShown: false,
         tabBarIcon:({tintColor}) => <Ionicons name="ios-chatboxes" size={24} color={tintColor}/>
       }
     },
     Post: {
       screen: PostScreen,
       navigationOptions:{
-        headerShown: false,
         tabBarIcon:({tintColor}) => (
         <Ionicons name="ios-add-circle" 
         size={24} color={tintColor} 
@@ -58,14 +55,12 @@ const AppTabNavigator = createBottomTabNavigator(
     Notification: {
       screen: NotificationScreen,
       navigationOptions:{
-        headerShown: false,
         tabBarIcon:({tintColor}) => <Ionicons name="ios-notifications" size={24} color={tintColor}/>
       }
     },
     Profile: {
       screen: ProfileScreen,
       navigationOptions:{
-        headerShown: false,
         tabBarIcon:({tintColor}) => <Ionicons name="ios-person" size={24} color={tintColor}/>
       }
     }
